@@ -17,11 +17,11 @@ let nameGenerator = () => {
   let noun = ["jogger", "racoon"];
   let dom = [".com", ".net", ".org"];
   return (
-    randomElement(pronoun) + 
-    randomElement(adj) + 
-    randomElement(noun) + 
+    randomElement(pronoun) +
+    randomElement(adj) +
+    randomElement(noun) +
     randomElement(dom)
-    );
+  );
 };
 
 function randomElement(array) {
